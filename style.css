@@ -1,3 +1,67 @@
+/* body {
+    font-family: Arial, sans-serif;
+}
+.todoapp {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid aqua;
+}
+button {
+    margin-top: 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.todo {
+    margin-left: 160px;
+}
+#todoinput {
+    margin-left: 40px;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50px;
+    border: black;
+}
+#todolist {
+    margin-left: 40px;
+}
+.add {
+    width: 80px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: cyan;
+    border: black;
+    border-radius: 50px;
+    color: black;
+}
+.edit {
+    
+    width: 70px;
+    height: 30px;
+    background-color: cyan;
+    color: black;
+    border-radius: 50px;
+}
+.delete {
+    margin-right: 200px;
+    width: 70px;
+    height: 30px;
+    background-color: cyan;
+    color: black;
+    border-radius: 50px;
+
+} */
+
+
+
+
+
 
 body {
     font-family: Arial, sans-serif;
@@ -7,7 +71,7 @@ body {
     width: 500px;
     margin: 20px auto;
     border: 2px solid aqua;
-    background: linear-gradient( black, grey);
+    background: black;
 }
 
 button {
@@ -32,6 +96,7 @@ li {
 
 .todo {
     margin-left: 160px;
+    color: black;
 }
 
 #todoinput {
