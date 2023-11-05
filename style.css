@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.todoapp {
+    width: 500px;
+    margin: 20px auto;
+    border: 2px solid aqua;
+    background: linear-gradient( black, grey);
+}
+
+button {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.todo {
+    margin-left: 160px;
+}
+
+#todoinput {
+    margin-left: 40px;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50px;
+    border: black;
+}
+
+#todolist {
+    margin-left: 40px;
+    width: 420px; /* Adjust width based on your design */
+}
+
+.add {
+    width: 80px;
+    height: 35px;
+    margin-left: 30px;
+    background-color: rgb(59, 243, 243);
+    border: black;
+    border-radius: 50px;
+    color: white;
+}
+
+.edit,
+.delete {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 30px;
+    background-color: rgb(59, 243, 243);    ;
+    color: black;
+    border-radius: 50px;
+    border: black;
+    margin-top: 0px;
+    right: 10px; /* Adjust the distance from the right edge */
+}
+
+.edit {
+    right: 90px; /* To position Edit button */
+}
